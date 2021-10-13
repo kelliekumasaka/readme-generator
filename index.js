@@ -53,10 +53,10 @@ inquirer.prompt([
     },
 ]).then((response) => {
     console.log(response);
-    fs.writeFile(`Generated-README.md`, generateMarkdown(response),function(err){
+    fs.writeFile(`README.md`, generateMarkdown(response),function(err){
         if(err){
             throw err;
         }
-        console.log("done!")
+        console.log("Done!")
     })
 });

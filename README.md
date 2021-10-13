@@ -1,16 +1,19 @@
-# hello 
-![GitHub license](https://img.shields.io/badge/license-PostgreSQL%20License-blue.svg)
+# Good README Generator<br>![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Description
-this is a test 
-<video controls width="250">
-  <source src="/media/cc0-videos/flower.mp4" type="video/mp4">
-</video>
+This program will dynamically create a README markdown file based on your input, saving time and energy for creator of the program. With this program, you are asked by prompts in the terminal. The input questions can be left blank, but you must answer the list question to continue. Additionally, there is a question section at the end where your contact information is created based on user input. 
+
+<video controls width='500'> <source src="./assets/sample.mp4"> </video>
 
 ## Table of Contents
 * [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
 
 ## Installation
-none
+
 
 ## Usage
 
@@ -22,7 +25,7 @@ none
 
 
 ## License
-This project is licensed under PostgreSQL License.
+This project is licensed under MIT.
 
 ## Questions
-Here is a link to my [GitHub](https://github.com/kelliekumasaka) or shoot me an [email](mailto:klks)
+Here is a link to my [GitHub](https://github.com/kelliekumasaka) or shoot me an [email](mailto:kelliek3@uw.edu).
