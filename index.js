@@ -39,7 +39,7 @@ inquirer.prompt([
         type:'list',
         message: 'Please choose a license.',
         name: 'license',
-        choices:['MIT','ISC', 'PostgreSQL License', 'Educational Community License v2.0', 'Apache license 2.0']
+        choices:['MIT','ISC', 'Mozilla Public License 2.0', 'Eclipse Public License 1.0', 'Apache license 2.0']
     },
     {
         type:'input',
@@ -53,6 +53,7 @@ inquirer.prompt([
     },
 ]).then((response) => {
     console.log(response);
+    // async writeFile needs an error parameter
     fs.writeFile(`README.md`, generateMarkdown(response),function(err){
         if(err){
             throw err;

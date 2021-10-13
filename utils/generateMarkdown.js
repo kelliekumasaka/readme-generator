@@ -2,14 +2,16 @@
 function generateMarkdown(response) {
   var userAnswers = `# ${response.title}`
 
-if(response.license==='PostgreSQL License'){
-  userAnswers+=`<br>![GitHub license](https://img.shields.io/badge/license-PostgreSQL%20License-blue.svg)`
-}else if(response.license==='Educational Community License v2.0'){
-  userAnswers+=`<br>![GitHub license](https://img.shields.io/badge/license-Educational%20Community%20License%20v2.0-blue.svg)`
+if(response.license==='Mozilla Public License 2.0'){
+  userAnswers+=`<br>![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)`
+}else if(response.license==='Eclipse Public License 1.0'){
+  userAnswers+=`<br>![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)`
 }else if(response.license==='Apache license 2.0'){
-  userAnswers+=`<br>![GitHub license](https://img.shields.io/badge/license-Apache%20license%202.0-blue.svg)`
+  userAnswers+=`<br>![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`
+}else if(response.license==='ISC'){
+  userAnswers+=`<br>![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)`
 }else{
-  userAnswers+=`<br>![GitHub license](https://img.shields.io/badge/license-${response.license}-blue.svg)`
+  userAnswers+=`<br>![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
 }
 
 userAnswers+=`
