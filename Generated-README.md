@@ -1,6 +1,6 @@
-# elkj<br>![GitHub license](https://img.shields.io/badge/license-Apache%20license%202.0-blue.svg)
+# Good README Generator<br>![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Description
-lkjx
+This program will create a README markdown document according to the information you input
 
 ## Table of Contents
 * [Installation](#installation)
@@ -11,7 +11,7 @@ lkjx
 * [Questions](#questions)
 
 ## Installation
-
+None
 
 ## Usage
 
@@ -23,7 +23,7 @@ lkjx
 
 
 ## License
-This project is licensed under Apache license 2.0.
+This project is licensed under MIT.
 
 ## Questions
-Here is a link to my [GitHub](https://github.com/kel) or shoot me an [email](mailto:lkke)
+Here is a link to my [GitHub](https://github.com/kelliekumasaka) or shoot me an [email](mailto:kelliek3@gmail.com).
