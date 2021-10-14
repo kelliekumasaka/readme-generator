@@ -2,7 +2,7 @@
 ## Description
 This program will dynamically create a README markdown file based on your input, saving time and energy for creator of the program. With this program, you are asked by prompts in the terminal. The input questions can be left blank, but you must answer the list question to continue. Additionally, there is a question section at the end where your contact information is created based on user input. 
 
-![video of program](https://youtu.be/wHXcHEMQQkQ)
+[![video of program](./assets/screenshot.png)](https://youtu.be/wHXcHEMQQkQ)
 
 ## Table of Contents
 * [Installation](#installation)
